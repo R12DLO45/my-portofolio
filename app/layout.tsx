@@ -14,11 +14,15 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Portofolio | Web & Software Developer",
-  description: "Portofolio mahasiswa semester akhir dan Web Developer yang berfokus pada Next.js, React, TypeScript, dan arsitektur web modern.",
+  description: "Portofolio mahasiswa semester akhir dan Web Developer yang berfokus pada Next.js, React, dan arsitektur web modern.",
   openGraph: {
     title: "Portofolio | Web & Software Developer",
     description: "Koleksi proyek web modern, tech stack, dan informasi kontak.",
     type: "website",
+  },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
   },
 };
 

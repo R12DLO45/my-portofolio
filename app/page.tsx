@@ -19,12 +19,12 @@ export default function Home() {
             <div className="h-2 w-2 rounded-full bg-neutral-100" />
             <span className="text-sm tracking-wide text-neutral-400 font-medium">{personal.name}</span>
           </div>
-          <div className="flex items-center gap-6 text-sm">
-            <a href="#projects" className="text-neutral-500 hover:text-neutral-200 transition">Karya</a>
-            <a href="#skills" className="text-neutral-500 hover:text-neutral-200 transition">Keahlian</a>
+          <div className="flex items-center gap-3 sm:gap-6 text-sm">
+            <a href="#projects" className="hidden sm:inline text-neutral-500 hover:text-neutral-200 transition">Karya</a>
+            <a href="#skills" className="hidden sm:inline text-neutral-500 hover:text-neutral-200 transition">Keahlian</a>
             <a
               href={`mailto:${personal.email}`}
-              className="px-4 py-2 bg-neutral-200 text-neutral-900 font-medium hover:bg-white transition"
+              className="px-3 sm:px-4 py-2 bg-neutral-200 text-neutral-900 font-medium hover:bg-white transition text-xs sm:text-sm"
             >
               Kontak
             </a>

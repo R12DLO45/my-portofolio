@@ -39,7 +39,7 @@ export const portfolioData = {
     role: "Full-Stack Developer & ML Enthusiast",
     status: "Fresh Graduate • Open to Work",
     location: "Kediri, Jawa Timur, Indonesia (GMT+7)",
-    bio: "Fresh graduate Teknik Informatika (IPK 3.84) dengan pengalaman membangun web apps dan mobile ML classification. Fokus pada React ecosystem dan problem-solving.",
+    bio: "Fresh graduate Teknik Informatika (IPK 3.84) dengan pengalaman membangun web apps dan mobile ML classification. Fokus pada React dan problem-solving.",
     email: "ubaidillahridlo57@gmail.com",
     socials: {
       github: "https://github.com/R12DLO45",
@@ -51,7 +51,6 @@ export const portfolioData = {
   services: [
     "Full-Stack Web Development (React + Next.js)",
     "Mobile App Development (Android + ML)",
-    "UI/UX Implementation with Tailwind",
   ],
 
   techStack: [

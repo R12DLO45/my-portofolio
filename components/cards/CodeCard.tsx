@@ -19,7 +19,7 @@ export default function CodeCard() {
         <p className="pl-4"><span className="text-neutral-500">name:</span> <span className="text-amber-400">&apos;{personal.name}&apos;</span>,</p>
         <p className="pl-4"><span className="text-neutral-500">role:</span> <span className="text-amber-400">&apos;{personal.role}&apos;</span>,</p>
         <p className="pl-4"><span className="text-neutral-500">location:</span> <span className="text-amber-400">&apos;Kediri, Indonesia&apos;</span>,</p>
-        <p className="pl-4"><span className="text-neutral-500">stack:</span> [<span className="text-blue-400">&apos;Next.js&apos;</span>, <span className="text-blue-400">&apos;TypeScript&apos;</span>, <span className="text-blue-400">&apos;Tailwind&apos;</span>]</p>
+        <p className="pl-4"><span className="text-neutral-500">stack:</span> [<span className="text-blue-400">&apos;Next.js&apos;</span>, <span className="text-blue-400">&apos;React&apos;</span>, <span className="text-blue-400">&apos;JavaScript&apos;</span>]</p>
         <p>&#125;;</p>
       </div>
 

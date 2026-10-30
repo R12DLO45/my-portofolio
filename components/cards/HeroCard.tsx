@@ -15,7 +15,7 @@ export default function HeroCard() {
 
   return (
     <div className="md:col-span-2 lg:col-span-2 md:row-span-2 p-10 lg:p-12 bg-neutral-900/50 border border-neutral-800 hover:border-neutral-700 transition-colors flex flex-col justify-between">
-      <div className="space-y-6">
+      <div className="space-y-6 text-center md:text-left">
         <span className="inline-block px-3 py-1.5 text-xs font-medium bg-neutral-800 text-neutral-300 border border-neutral-700">
           {personal.status}
         </span>
@@ -25,12 +25,12 @@ export default function HeroCard() {
           <span className="italic text-neutral-400">cepat dan mudah digunakan</span>
         </h1>
 
-        <p className="text-neutral-400 text-base leading-relaxed max-w-lg">
+        <p className="text-neutral-400 text-base leading-relaxed max-w-lg mx-auto md:mx-0">
           {personal.bio}
         </p>
       </div>
 
-      <div className="pt-8 flex flex-wrap items-center gap-4">
+      <div className="pt-8 flex flex-wrap items-center justify-center md:justify-start gap-4">
         <a
           href="#projects"
           className="px-6 py-3 bg-neutral-100 text-neutral-900 font-medium hover:bg-white transition-colors"

@@ -36,7 +36,7 @@ export default function ProjectCard() {
               </div>
 
               <div className="space-y-5">
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 justify-center md:justify-start">
                   {proj.tags.map((t) => (
                     <span
                       key={t}
@@ -47,7 +47,7 @@ export default function ProjectCard() {
                   ))}
                 </div>
 
-                <div className="flex items-center gap-5 pt-2">
+                <div className="flex items-center gap-5 pt-2 justify-center md:justify-start">
                   {proj.demoUrl && proj.demoUrl !== "#" && (
                     <a
                       href={proj.demoUrl}
