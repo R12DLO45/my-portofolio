@@ -18,7 +18,7 @@ export default function TechCard() {
             key={idx}
             className="p-4 bg-neutral-950/60 border border-neutral-800 hover:border-neutral-600 transition-colors"
           >
-            <p className="text-base font-semibold text-neutral-200">{tech.name}</p>
+            <p className="text-base font-semibold text-neutral-200 break-words">{tech.name}</p>
             <p className="text-xs text-neutral-500 mt-1">{tech.category}</p>
           </div>
         ))}
