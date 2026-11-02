@@ -36,7 +36,7 @@ export interface Education {
 export const portfolioData = {
   personal: {
     name: "Mohammad Ubaidillah Ridlo",
-    role: "Full-Stack Developer & ML Enthusiast",
+    role: "Full-Stack Developer",
     status: "Fresh Graduate • Open to Work",
     location: "Kediri, Jawa Timur, Indonesia (GMT+7)",
     bio: "Fresh graduate Teknik Informatika (IPK 3.84) dengan pengalaman membangun web apps dan mobile ML classification. Fokus pada React dan problem-solving.",

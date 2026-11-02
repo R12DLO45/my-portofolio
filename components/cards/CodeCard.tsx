@@ -24,7 +24,7 @@ export default function CodeCard() {
       </div>
 
       <div className="text-neutral-600 text-xs pt-4 border-t border-neutral-800">
-        Semester 8 — Fokus pada web apps modern
+        Fokus pada web apps modern
       </div>
     </div>
   );
