@@ -43,7 +43,7 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="py-12 flex flex-col sm:flex-row items-center justify-between border-t border-neutral-900 gap-4 text-xs text-neutral-600">
-          <p>{new Date().getFullYear()} — Dibuat dengan Next.js</p>
+          <p>{new Date().getFullYear()} — Dibuat dengan Next.js dan Tailwind CSS</p>
           <div className="flex gap-5">
             <a href={personal.socials.github} target="_blank" rel="noreferrer" className="hover:text-neutral-400 transition">GitHub</a>
             <a href={personal.socials.linkedin} target="_blank" rel="noreferrer" className="hover:text-neutral-400 transition">LinkedIn</a>

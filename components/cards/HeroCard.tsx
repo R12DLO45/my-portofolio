@@ -37,6 +37,13 @@ export default function HeroCard() {
         >
           Lihat Karya
         </a>
+        <a
+          href="/cv-mohammad-ubaidillah-ridlo.pdf"
+          download
+          className="px-6 py-3 border border-neutral-700 hover:bg-neutral-800 transition-colors font-medium text-neutral-200"
+        >
+          Download CV
+        </a>
         <button
           onClick={handleCopyEmail}
           className="px-6 py-3 bg-neutral-800 border border-neutral-700 hover:bg-neutral-750 transition-colors font-medium text-neutral-200"

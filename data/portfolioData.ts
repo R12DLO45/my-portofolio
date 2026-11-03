@@ -56,8 +56,11 @@ export const portfolioData = {
   techStack: [
     { name: "React", category: "Frontend", level: "Primary" },
     { name: "Next.js", category: "Frontend", level: "Primary" },
+    { name: "TypeScript", category: "Frontend", level: "Primary" },
     { name: "JavaScript", category: "Frontend", level: "Primary" },
     { name: "HTML/CSS", category: "Frontend", level: "Primary" },
+    { name: "Tailwind CSS", category: "Frontend", level: "Primary" },
+    { name: "Supabase", category: "Backend", level: "Secondary" },
     { name: "Android Development", category: "Tools", level: "Secondary" },
     { name: "Git / GitHub", category: "Tools", level: "Primary" },
   ] as TechItem[],
